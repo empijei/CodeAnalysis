@@ -1,0 +1,20 @@
+digraph G {
+	node [peripheries=2 style="filled,rounded" fontname="Vera Sans Mono" color="#eecc80"];
+	rankdir=LR;
+	label="Tris.c"
+	main [shape=box];
+node [color="#ccee80," shape="ellipse,"];edge [color="#ccee80,"];
+main -> printf;
+main -> scanf;
+main -> stampa;
+node [color="#80ccee," shape="octagon,"];edge [color="#80ccee,"];
+stampa -> system;
+stampa -> printf;
+node [color="#ccee80," shape="ellipse,"];edge [color="#ccee80,"];
+main -> getchar;
+main -> scegli;
+node [color="#80ccee," shape="octagon,"];edge [color="#80ccee,"];
+scegli -> caso;
+node [color="#ccee80," shape="ellipse,"];edge [color="#ccee80,"];
+main -> check;
+}
