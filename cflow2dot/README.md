@@ -17,5 +17,5 @@ xdg-open Tris.c.dot.png
 
 # Sample output:
 
-![Just a sample](./Tris.dot.png)
+![Just a sample](./Tris.c.dot.png)
 
